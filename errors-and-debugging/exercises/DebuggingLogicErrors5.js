@@ -25,4 +25,4 @@ if (crewStatus && computerStatus === 'green'){
    launchReady = false;
 }
 
-console.log("launchReady = ", launchReady);
+console.log("crewStatus = ", crewStatus);
