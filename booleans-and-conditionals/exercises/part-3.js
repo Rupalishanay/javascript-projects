@@ -16,7 +16,7 @@ e) If fuelLevel is below 1000 OR engineTemperature is above 3500 OR engineIndica
 
 f) Otherwise, print "Fuel and engine status pending..." */
 
-// Code 5a - 5f here:
+// Code 5a - 5f here
 if (fuelLevel > 20000 && engineTemperature <= 2500) {
     console.log("Full tank.Engines good");
 }
