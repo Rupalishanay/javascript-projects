@@ -34,7 +34,7 @@ console.log(sortArray(nums3));
 /* BONUS MISSION: Refactor your sorting function to use recursion below:
  */
 function recursiveSort(unsortedArray,newArray=[]){
-  if (unsortedArray.length--1)
+  if (unsortedArray.length==1)
   {
     newArray.push(unsortedArray[0])
   }
